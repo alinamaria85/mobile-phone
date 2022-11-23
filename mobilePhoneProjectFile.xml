@@ -37,4 +37,9 @@
         <output href="./x2000Model-WebHelp"/>
         <publication idref="pub4"/>
     </deliverable>
+    <deliverable id="test-1669214016957" name="test">
+        <context idref="x1000ModelContext"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
 </project>
