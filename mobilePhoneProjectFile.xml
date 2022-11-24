@@ -12,7 +12,6 @@
             <ditaval href="ditaval/x2000.ditaval"/>
         </profile>
     </context>
-    <publication id="webhelp" idref="webhelp" transtype="webhelp-responsive"/>
     <publication transtype="pdf"/>
     <deliverable id="x1000InPDF" name="Model x1000 in PDF">
         <context idref="x1000ModelContext"/>
@@ -23,10 +22,5 @@
         <context idref="x2000ModelContext"/>
         <output href="./x2000Model-WebHelp"/>
         <publication transtype="webhelp-responsive"/>
-    </deliverable>
-    <deliverable id="test-1669303164444" name="test">
-        <context idref="x1000ModelContext"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
     </deliverable>
 </project>
