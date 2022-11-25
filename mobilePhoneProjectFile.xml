@@ -16,22 +16,22 @@
   <deliverable name="Model x1000 in PDF" id="x1000InPDF">
     <context idref="x1000ModelContext"/>
     <output href="./x1000Model-PDF"/>
-    <publication transtype="pdf"/>
+    <publication transtype="pdf" id="pub1"/>
   </deliverable>
   <deliverable name="Model x2000 in PDF" id="x2000InPDF">
     <context idref="x2000ModelContext"/>
     <output href="./x2000Model-PDF"/>
-    <publication transtype="pdf"/>
+    <publication transtype="pdf" id="pub2"/>
   </deliverable>
   
   <deliverable name="Model x1000 in WebHelp" id="x1000InWebHelp">
     <context idref="x1000ModelContext"/>
     <output href="./x1000Model-WebHelp"/>
-    <publication transtype="webhelp-responsive"/>
+    <publication transtype="webhelp-responsive" id="pub3"/>
   </deliverable>
   <deliverable name="Model x2000 in WebHelp" id="x2000InWebHelp">
     <context idref="x2000ModelContext"/>
     <output href="./x2000Model-WebHelp"/>
-    <publication transtype="webhelp-responsive"/>
+    <publication transtype="webhelp-responsive" id="pub4"/>
   </deliverable>
 </project>
